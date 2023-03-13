@@ -6,6 +6,9 @@
 //
 
 #import "AppDelegate.h"
+#import <MyCocoaPodsTestProject/TestStaticLibrary.h>
+#import <MyCocoaPodsLib2.h>
+#import <CocoaPodsLib1.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    TestStaticLibrary* tsl = [[TestStaticLibrary alloc] init];
+    NSString* tip = [tsl getSLTip];
+    NSLog(@"tip: %@", tip);
+    
+    // 本地pod lib1
+    CocoaPodsLib1* lib1 = [[CocoaPodsLib1 alloc] init];
+    NSString *lib1Tip = [lib1 getTip];
+    NSLog(@"lib1Tip: %@", lib1Tip);
+    
+    // 本地pod lib2
+    MyCocoaPodsLib2 *lib2 = [[MyCocoaPodsLib2 alloc] init];
+    NSString *lib2Tip = [lib2 getTip];
+    NSLog(@"lib2Tip: %@", lib2Tip);
+    
     return YES;
 }
 

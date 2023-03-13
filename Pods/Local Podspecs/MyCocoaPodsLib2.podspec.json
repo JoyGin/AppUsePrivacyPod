@@ -1,0 +1,24 @@
+{
+  "name": "MyCocoaPodsLib2",
+  "version": "0.0.1",
+  "summary": "A short description of MyCocoaPodsLib2.",
+  "description": "MyCocoaPodsLib2",
+  "homepage": "http://joygin/MyCocoaPodsLib2",
+  "license": "MIT",
+  "authors": {
+    "zexwang": "zexwang@tencent.com"
+  },
+  "source": {
+    "git": "http://joygin/MyCocoaPodsLib2.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "MyCocoaPodsLib2/**/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "frameworks": "Foundation",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

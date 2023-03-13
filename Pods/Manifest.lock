@@ -1,0 +1,28 @@
+PODS:
+  - CocoaPodsLib1 (0.0.1)
+  - MyCocoaPodsLib2 (0.0.1)
+  - MyCocoaPodsTestProject (0.0.1)
+
+DEPENDENCIES:
+  - CocoaPodsLib1 (from `Framework/CocoaPodsLib1`)
+  - MyCocoaPodsLib2 (from `Framework/MyCocoaPodsLib2`)
+  - MyCocoaPodsTestProject
+
+SPEC REPOS:
+  https://github.com/JoyGin/Specs.git:
+    - MyCocoaPodsTestProject
+
+EXTERNAL SOURCES:
+  CocoaPodsLib1:
+    :path: Framework/CocoaPodsLib1
+  MyCocoaPodsLib2:
+    :path: Framework/MyCocoaPodsLib2
+
+SPEC CHECKSUMS:
+  CocoaPodsLib1: 46f38dcee7c037db7d8e088bb358030e8f6fe043
+  MyCocoaPodsLib2: 501ff2642dfa41198cc95f4d140018e1af1f13ab
+  MyCocoaPodsTestProject: 2bdcf03698030064b7c7068765d892784b5ef186
+
+PODFILE CHECKSUM: 789929c9a0879cf16ccf447fbe1c3df8d622a13b
+
+COCOAPODS: 1.11.3

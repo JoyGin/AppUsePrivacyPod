@@ -1,0 +1,1 @@
+../../../MyCocoaPodsTestProject/MyCocoaPodsTestProject/Classes/TestStaticLibrary.h
