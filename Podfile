@@ -13,4 +13,5 @@ target 'AppUsePrivacyPod' do
   pod 'MyCocoaPodsTestProject'
   pod 'CocoaPodsLib1', :path => 'Framework/CocoaPodsLib1'
   pod 'MyCocoaPodsLib2', :path => 'Framework/MyCocoaPodsLib2'
+  pod 'CocoaPodsLib3', :path => 'Framework/CocoaPodsLib3'
 end

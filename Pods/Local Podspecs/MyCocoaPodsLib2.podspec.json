@@ -14,7 +14,11 @@
   },
   "source_files": "MyCocoaPodsLib2/**/*.{h,m}",
   "exclude_files": "Classes/Exclude",
-  "frameworks": "Foundation",
+  "dependencies": {
+    "CocoaPodsLib3": [
+
+    ]
+  },
   "platforms": {
     "osx": null,
     "ios": null,

@@ -1,0 +1,21 @@
+{
+  "name": "CocoaPodsLib3",
+  "version": "1.0.0",
+  "summary": "CocoaPodsLib3 概要描述",
+  "description": "CocoaPodsLib3 描述",
+  "homepage": "http://github/Admit.git",
+  "license": "MIT",
+  "authors": {
+    "wangzexin": "1905721262@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "frameworks": "Foundation",
+  "source_files": "CocoaPodsLib3/**/*.{h,m,mm}"
+}

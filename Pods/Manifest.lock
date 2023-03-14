@@ -1,10 +1,13 @@
 PODS:
   - CocoaPodsLib1 (0.0.1)
-  - MyCocoaPodsLib2 (0.0.1)
+  - CocoaPodsLib3 (1.0.0)
+  - MyCocoaPodsLib2 (0.0.1):
+    - CocoaPodsLib3
   - MyCocoaPodsTestProject (0.0.1)
 
 DEPENDENCIES:
   - CocoaPodsLib1 (from `Framework/CocoaPodsLib1`)
+  - CocoaPodsLib3 (from `Framework/CocoaPodsLib3`)
   - MyCocoaPodsLib2 (from `Framework/MyCocoaPodsLib2`)
   - MyCocoaPodsTestProject
 
@@ -15,14 +18,17 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   CocoaPodsLib1:
     :path: Framework/CocoaPodsLib1
+  CocoaPodsLib3:
+    :path: Framework/CocoaPodsLib3
   MyCocoaPodsLib2:
     :path: Framework/MyCocoaPodsLib2
 
 SPEC CHECKSUMS:
   CocoaPodsLib1: 46f38dcee7c037db7d8e088bb358030e8f6fe043
-  MyCocoaPodsLib2: 501ff2642dfa41198cc95f4d140018e1af1f13ab
+  CocoaPodsLib3: 7bd3f544348f664ee261f67a66f731af4e511a2a
+  MyCocoaPodsLib2: 543f75ecb844fdce2b6c26aea5975ce9f480eab0
   MyCocoaPodsTestProject: 2bdcf03698030064b7c7068765d892784b5ef186
 
-PODFILE CHECKSUM: 789929c9a0879cf16ccf447fbe1c3df8d622a13b
+PODFILE CHECKSUM: e69090b32aa1c1cb6517941a4ab5c74a15bda575
 
 COCOAPODS: 1.11.3
